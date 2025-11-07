@@ -2,3 +2,5 @@ Flask
 gunicorn
 python-dotenv
 stripe
+markdown2
+openai

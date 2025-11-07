@@ -1,0 +1,17 @@
+# Render deployment configuration for Flask app
+
+# Python version
+pythonVersion = "3.11"
+
+# Start command for Render
+startCommand = "gunicorn main:app"
+
+# Environment variables (do not hardcode secrets here, set in Render dashboard)
+# Example:
+# SECRET_KEY=your_secret_key
+# STRIPE_SECRET_KEY=your_stripe_secret_key
+# OPENAI_API_KEY=your_openai_api_key
+# STRIPE_WEBHOOK_SECRET=your_stripe_webhook_secret
+# ZAPIER_WEBHOOK_URL=your_zapier_webhook_url
+
+# If you use a requirements.txt, Render will install dependencies automatically
